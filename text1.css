@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', Sans-Serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    background: linear-gradient(90deg, #161578, #b81055);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.hero h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.span {
+    color: #fc2124;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    background: #3f464a52;
+    color: #fff;
+    font-size: 15px;
+    border: 2px;
+    border-style: solid;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: #fdf;
+    padding: 0.5rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 0.8rem;
+    background-image: linear-gradient(90deg, #F4244a, #F57e4E);
+    border-style: solid;
+    border-radius: 25px;
+    border: 2;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    padding: 1rem;
+}
+
+select {
+    flex: 1;
+    color: red;
+    background: #ddd;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
+
+.p {
+    transition: 2s;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.p hover {
+    height: 20px;
+}
+
+.h1 {
+    flex-direction: column;
+    padding: 12px;
+    font-size: 38px;
+    text-decoration: overline;
+    text-decoration-color: #fc2124;
+}
+
+.sub-heading {
+    padding: 13px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
