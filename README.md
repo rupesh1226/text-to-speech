@@ -3,7 +3,10 @@
 A simple and responsive Text To Speech Converter built using HTML, CSS, and JavaScript.
 This project converts written text into spoken audio using the browser's Speech Synthesis API.
 ---------------------------------------
+## Screenshot
 
+![Text To Speech App](images/screenshot.png)
+-----------------------------------
 🚀 Features
 - Convert text into speech instantly
 - Simple and clean user interface
