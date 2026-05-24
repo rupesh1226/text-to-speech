@@ -5,7 +5,7 @@ This project converts written text into spoken audio using the browser's Speech 
 ---------------------------------------
 ## Screenshot
 
-![Text To Speech App](images/screenshot.png)
+![Text To Speech App](screenshot.png)
 -----------------------------------
 🚀 Features
 - Convert text into speech instantly
